@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import MainCanvas from './MainCanvas';
-import reportWebVitals from './reportWebVitals';
+import MainCanvas from './MainCanvas'
+import MemoryLogic from './MemoryLogic'
+import reportWebVitals from './reportWebVitals'
 
 ReactDOM.render(
   <React.StrictMode>
-    <MainCanvas />
+    {/* <MainCanvas /> */}
+    <MemoryLogic />
   </React.StrictMode>,
   document.getElementById('root')
 );
