@@ -10,10 +10,6 @@ import backface from './images/backface.svg'
 
 function MainCanvas(props) {
 
-  // const handleClickCard = (e) => {
-  //   debugger
-  // }
-
   return (
     <section className="main">
       {/* want to add a background image of a maze or something */}
@@ -29,7 +25,7 @@ function MainCanvas(props) {
     
       <div className="memory-card" data-framework='angular'>
         <img onClick={e => props.clickCard(e)} className="front-face" src={angular} alt="Angular"/>
-        <img onClick={e => props.clickCard(e)} class="back-face" src={backface} alt="Angular"/>
+        <img onClick={e => props.clickCard(e)} className="back-face" src={backface} alt="Angular"/>
       </div>
     
       <div className="memory-card" data-framework='angular'>
